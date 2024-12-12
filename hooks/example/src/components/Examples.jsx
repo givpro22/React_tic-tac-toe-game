@@ -13,9 +13,9 @@
         }
 
         return(
-        <Section id="examples" >
-        <h2>Example</h2>
-        <Tabs buttons={
+        <Section title="Example" id="examples" >
+        <Tabs
+            buttons={ 
             <menu>
                 <TabButton isSelected={selectedTopic === "components"} onClick={() => handleClick('components')}>Component</TabButton>
                 <TabButton isSelected={selectedTopic === "jsx"} onClick={() => handleClick('jsx')}>JSX</TabButton>
